@@ -1,0 +1,11 @@
+qiskit[visualization]==1.0.2
+qiskit_ibm_runtime
+qiskit_aer
+qiskit-transpiler-service
+matplotlib
+numpy
+pylatexenc
+qiskit==1.0.2
+graphviz
+python-dotenv
+jupyterlab

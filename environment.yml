@@ -1,0 +1,19 @@
+name: transpiler-test
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - qiskit[visualization]==1.0.2
+    - qiskit_ibm_runtime
+    - qiskit_aer
+    - qiskit-transpiler-service
+    - qiskit==1.0.2
+    - matplotlib
+    - numpy
+    - python-dotenv
+    - pylatexenc
+    - graphviz
+    - jupyterlab
