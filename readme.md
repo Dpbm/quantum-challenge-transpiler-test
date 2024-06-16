@@ -15,8 +15,12 @@ The backeds that I used were `ibm_sherbrooke` and `ibm_brisbane`, however they s
 ```bash
 # create a conda environment
 conda env create -f environment.yml
-
 conda activate transpiler-test
+
+# set your ibm token
+echo IBM_TOKEN=YOUR_TOKEN >> .env
+
+# start the jupyter notebook
 jupyter lab
 ```
 
